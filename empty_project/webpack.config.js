@@ -21,8 +21,8 @@ const vendorChunk = new webpack.optimize.CommonsChunkPlugin({
 
 // Modules configuration
 const imagesModule = {
-  test    : /\.(png|jpg|gif|svg)$/,
-  use     : {
+  test : /\.(png|jpg|gif|svg)$/,
+  use  : {
     loader  : 'file-loader',
     options : {
       name       : '[name].[ext]',
