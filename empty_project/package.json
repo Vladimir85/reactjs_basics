@@ -1,0 +1,38 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Empty Project template",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --display-error-details --progress --colors",
+    "watch": "webpack --watch --display-error-details --progress --colors",
+    "serve": "http-server ./build"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.10.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}
