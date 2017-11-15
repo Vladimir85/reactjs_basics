@@ -1,4 +1,6 @@
 # ReactJs Sessions
+[Expedia Code Academy](https://confluence/display/POS/Expedia+Code+Academy+Chicago)
+
 ## Setup
 
 1. Join the Slack channel `reactjs-coders`
