@@ -4,7 +4,7 @@ const HtmlWebpack         = require('html-webpack-plugin')
 const ExtractTextPlugin   = require("extract-text-webpack-plugin")
 const assetsHashGenerator = new webpack.HashedModuleIdsPlugin()
 
-const htmlInject = new HtmlWebpack({ template: './app/index.html' })
+const htmlInject = new HtmlWebpack({ template: './app/index.html', hash: true })
 
 // Compile less files into separate CSS file
 const extractLess = new ExtractTextPlugin({
