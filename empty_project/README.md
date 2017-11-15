@@ -25,7 +25,14 @@ Once the process is completed, `node_modules` folder will appear.
 
 *This module is downloaded with NPM in previous step.*
 
-# Building the project
+### Serving the content
+To run the HTTP server, it will refresh automatically on content change
+```
+$ npm run start
+```
+This will make the app accessible from [http://localhost:8081/](http://localhost:8081/)
+
+### Building the project
 To build the project run
 ```
 $ npm run build
@@ -34,10 +41,3 @@ To build the project on any file change, is useful for the development mode:
 ```
 $ npm run watch
 ```
-
-### Serving the content
-To run the HTTP server
-```
-$ npm run start
-```
-This will make the app accessible from [http://localhost:8081/](http://localhost:8081/)
