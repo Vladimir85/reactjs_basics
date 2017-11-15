@@ -1,1 +1,1 @@
-# reactjs_basics
+# ReactJs Sessions
